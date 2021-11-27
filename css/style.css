@@ -141,6 +141,13 @@ body{
     font-size: 42px;
     color: #fcdb00;
 }
+.social_icon ul li:last-child{
+	margin-right: 0;
+}
+.social_icon li i:hover{
+	background-color: #fff;
+	transition: 0.3s;
+}
 /*Footer Start*/
 .footer {
     background-color: #010101;
@@ -149,4 +156,11 @@ body{
 .footer p{
 	margin-bottom: 0;
 	color: #fff;
+}
+.footer p a{
+	text-decoration: none;
+	color: #fff;
+}
+.footer p a:hover{
+	color: #fcdb00;
 }

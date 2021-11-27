@@ -48,7 +48,14 @@
 }
 
 .social_icon li {
-    margin-left: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.social_icon li i {
+    font-size: 26px;
+}
+.search input {
+    margin-bottom: 20px;
 }
 /*Footer*/
 .footer p {
@@ -93,6 +100,10 @@
 }
 .f_text {
     text-align: center;
+}
+/*contact start*/
+.search input {
+    margin-bottom: 20px;
 }
 
 }
